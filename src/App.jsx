@@ -417,9 +417,9 @@ export default function MichaelArimasPortfolio() {
             <motion.div variants={fadeUp} className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm font-medium text-cyan-100">
               <Sparkles className="h-4 w-4" /> Web Developer · CRO · Analytics Infrastructure · WordPress
             </motion.div>
-            <motion.h1 variants={fadeUp} className="max-w-5xl text-5xl font-black tracking-tight text-white md:text-7xl">
+            <motion.h5 variants={fadeUp} className="max-w-5xl text-5xl font-black tracking-tight text-white md:text-7xl">
               Building conversion-focused web platforms with precise tracking, fast performance, and clean CRM integrations.
-            </motion.h1>
+            </motion.h5>
             <motion.p variants={fadeUp} className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
               I develop and optimize web properties that connect user experience, analytics accuracy, experimentation, and sales operations into measurable business outcomes.
             </motion.p>
