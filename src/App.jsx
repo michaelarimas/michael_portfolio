@@ -570,7 +570,7 @@ export default function MichaelArimasPortfolio() {
                       <Gauge className="h-5 w-5 text-cyan-300" /> Results
                     </h4>
                     <div className="space-y-3">
-                      {study.results.map((result) => (
+                      {study.results.filter.map((result) => (
                         <div key={result} className="rounded-xl border border-white/10 bg-white/5 p-3 text-sm font-semibold leading-6 text-slate-200">
                           {result}
                         </div>
